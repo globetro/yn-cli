@@ -1,0 +1,24 @@
+{
+  "name": "yn-cli",
+  "version": "0.0.0",
+  "description": "Dead simple CLI for prompting for confirmation to use in your npm scripts.",
+  "repository": "https://github.com/globetro/yn-cli.git",
+  "main": "index.js",
+  "bin": {
+    "yn": "./bin/yn.js"
+  },
+  "scripts": {
+    "release": "npm-release"
+  },
+  "keywords": [
+    "confirm",
+    "yn",
+    "prompt",
+    "cli"
+  ],
+  "author": "Warren <warreno@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "npm-release": "^1.0.0"
+  }
+}
